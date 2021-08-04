@@ -1,7 +1,6 @@
 # medicine_app
 
-A new Flutter project.
-
+Medicine app project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
