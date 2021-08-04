@@ -7,7 +7,10 @@ class WidgetIlustration extends StatelessWidget {
   final String title;
   final String subtitle1;
   final String subtitle2;
-  WidgetIlustration({required this.child, required this.image, required this.title, required this.subtitle1, required this.subtitle2});
+
+  WidgetIlustration(
+      {this.child, this.image, this.title, this.subtitle1, this.subtitle2});
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -45,6 +48,7 @@ class WidgetIlustration extends StatelessWidget {
             SizedBox(
               height: 40,
             ),
+            child ?? SizedBox(),
           ],
         ),
       ],

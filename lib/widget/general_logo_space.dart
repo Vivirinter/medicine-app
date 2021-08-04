@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 class GeneralLogoSpace extends StatelessWidget {
   final Widget child;
-  GeneralLogoSpace({required this.child});
+
+  GeneralLogoSpace({this.child});
+
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -15,6 +17,7 @@ class GeneralLogoSpace extends StatelessWidget {
             "assets/logo.png",
             width: 115,
           ),
+          child ?? SizedBox()
         ],
       ),
     );
