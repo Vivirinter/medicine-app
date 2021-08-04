@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.vivir.medicine_app">
    <application
+        android:usesCleartextTraffic="true"
         android:label="medicine_app"
         android:icon="@mipmap/ic_launcher">
         <activity
